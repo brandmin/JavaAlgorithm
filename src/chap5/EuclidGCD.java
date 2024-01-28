@@ -11,13 +11,13 @@ class EuclidGCD {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("두 정수의 최대공약수를 구합니다.");
 
         System.out.print("정수를 입력하세요:");
-        int x = scanner.nextInt();
+        int x = sc.nextInt();
         System.out.print("정수를 입력하세요:");
-        int y = scanner.nextInt();
+        int y = sc.nextInt();
 
         System.out.println("최대공약수는 " + gcd(x, y) + "입니다.");
     }
